@@ -9,7 +9,6 @@
 
     <ItemGroup>
       <Folder Include="Behavioral\" />
-      <Folder Include="Creational\Factory\FactoryMethod\" />
       <Folder Include="Structural\" />
     </ItemGroup>
 

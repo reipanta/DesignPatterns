@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Creational.Factory.FactoryObject;
+﻿namespace DesignPatterns.Creational.Factory.FactoryMethod;
 
 public abstract class Knife
 {
@@ -8,4 +8,3 @@ public abstract class Knife
     public abstract void Sharpen();
     public abstract void Package();
 }
-

@@ -1,8 +1,8 @@
-﻿namespace DesignPatterns.Creational.Factory.FactoryObject;
+﻿namespace DesignPatterns.Creational.Factory.FactoryMethod;
 
-public class QualityKnife : Knife
+public class BudgetKnife : Knife
 {
-    public override string KnifeType { get; } = "QualityKnife";
+    public override string KnifeType { get; } = "BudgetKnife";
 
     public override void Polish()
     {
@@ -19,4 +19,3 @@ public class QualityKnife : Knife
         throw new NotImplementedException();
     }
 }
-

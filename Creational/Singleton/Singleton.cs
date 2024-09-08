@@ -9,9 +9,9 @@ public class Singleton
         
     }
 
-public static Singleton GetInstance()
+    public static Singleton GetInstance()
     {
-        if (_instance == null) 
+        if (_instance == null)
             _instance = new Singleton();
         return _instance;
     }
